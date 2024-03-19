@@ -1,0 +1,4 @@
+true / 9,82,20,11,57,83,46,4,7,90,77,31,46,3,27,8,93,31,18,28,36
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
